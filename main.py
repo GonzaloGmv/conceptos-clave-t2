@@ -14,8 +14,8 @@ if __name__ == "__main__":
     a.vector(5,5)
     b.vector(2,3)
     #Consulta la distancia entre los puntos 'A y B' y 'B y A'
-    print("La distancia entre a y b es", a.distancia(5,5))
-    print("La distancia entre b y a es", b.distancia(2,3))
+    print("La distancia entre a y b es", a.distancia(5,5), "unidades")
+    print("La distancia entre b y a es", b.distancia(2,3), "unidades")
     #Determina cual de los 3 puntos A, B o C, se encuentra más lejos del origen, punto (0,0)
     a.distancia_max()
     #Crea un rectángulo utilizando los puntos A y B.
