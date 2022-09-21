@@ -20,6 +20,6 @@ if __name__ == "__main__":
     a.distancia_max()
     #Crea un rectángulo utilizando los puntos A y B.
     #Consulta la base, altura y área del rectángulo.
-    print("La base del rectangulo es", a.base())
-    print("La altura del rectangulo es", a.altura())
-    print("El area del rectangulo es", a.area())
+    print("La base del rectangulo es", a.base(), "unidades")
+    print("La altura del rectangulo es", a.altura(), "unidades")
+    print("El area del rectangulo es", a.area(), "unidades al cuadrado")
