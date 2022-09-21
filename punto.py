@@ -1,7 +1,6 @@
 import math
 
 class punto():
-
     def __init__(self, x, y):
         self.x = x
         self.y = y
@@ -65,8 +64,21 @@ class punto():
         h = a.altura()
         area = b * h
         return area
+    
+    def distancia_max(self):
+        ad = a.distancia(0,0)
+        bd = b.distancia(0,0)
+        cd = c.distancia(0,0)
+        dmax = max(ad,bd,cd)
+        if dmax == ad:
+            print("El punto mas lejos del origen es a")
+        elif dmax == bd:
+            print("El punto mas lejos del origen es b")
+        elif dmax == cd:
+            print("El punto mas lejos del origen es c")
 
 a = punto(2,3)
 b = punto(5,5)
 c = punto(-3,-1)
 d = punto(0,0)
+
