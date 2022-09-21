@@ -24,14 +24,17 @@ class punto():
             print("Está en el cuarto cuadrante")
 
     def vector(self, xp, yp):
-        xv = self.x - xp
-        yv = self.y - yp
+        xv = xp - self.x 
+        yv = yp - self.y
         print("El vector resultante es (", xv, ",", yv, ")")
     
-    def rectangulo(self, x1, y1, x2, y2):
-        xd = x1 - x2
-        yd = y1 - y2
-        print("La diagonal del rectángulo es (", xd, ",", yd, ")")
 
-        
-punto(1,2).rectangulo()
+a = punto(2,3)
+b = punto(5,5)
+c = punto(-3,-1)
+d = punto(0,0)
+
+a.cuadrante()
+b.cuadrante()
+c.cuadrante()
+a.vector(5,5)
