@@ -81,4 +81,3 @@ a = punto(2,3)
 b = punto(5,5)
 c = punto(-3,-1)
 d = punto(0,0)
-

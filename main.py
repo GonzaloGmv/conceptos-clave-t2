@@ -13,11 +13,12 @@ if __name__ == "__main__":
     #Consulta los vectores AB y BA
     a.vector(5,5)
     b.vector(2,3)
-    #Determina cual de los 3 puntos A, B o C, se encuentra más lejos del origen, punto (0,0)
-    a.distancia_max()
     #Consulta la distancia entre los puntos 'A y B' y 'B y A'
     print("La distancia entre a y b es", a.distancia(5,5))
     print("La distancia entre b y a es", b.distancia(2,3))
+    #Determina cual de los 3 puntos A, B o C, se encuentra más lejos del origen, punto (0,0)
+    a.distancia_max()
+    #Crea un rectángulo utilizando los puntos A y B.
     #Consulta la base, altura y área del rectángulo.
     print("La base del rectangulo es", a.base())
     print("La altura del rectangulo es", a.altura())
