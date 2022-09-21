@@ -22,10 +22,16 @@ class punto():
             print("Está en el tercer cuadrante")
         elif self.y < 0 and self.x > 0:
             print("Está en el cuarto cuadrante")
-            
+
     def vector(self, xp, yp):
         xv = self.x - xp
         yv = self.y - yp
         print("El vector resultante es (", xv, ",", yv, ")")
+    
+    def rectangulo(self, x1, y1, x2, y2):
+        xd = x1 - x2
+        yd = y1 - y2
+        print("La diagonal del rectángulo es (", xd, ",", yd, ")")
+
         
-punto(1,2).vector(2,3)
+punto(1,2).rectangulo()
